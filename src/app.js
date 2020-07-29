@@ -39,7 +39,7 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        email: 'abc@dash.com',
+        email: 'rastogi.arushi@gmail.com',
         title: 'Help',
         name: 'Arushi'
     })
